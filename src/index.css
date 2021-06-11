@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Card_body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  margin-top: 150px;
+  margin-left: 340px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  border: 2px solid wheat;
+  background-color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 10px 15px 5px darkslategray;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.the_title {
+  margin: 10px;
+  border: 1px solid wheat;
+  padding: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: dodgerblue;
+  font-size: 1.5rem;
+}
+
+.the_description {
+  margin: 10px;
+  font-size: 1.5rem;
+  padding: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: dodgerblue;
+  border: 1px solid wheat;
+  color: whitesmoke;
+}
+
+.nice_image {
+  width: 300px;
+  height: 30vh;
+  margin-right: 1px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: 1px solid wheat;
+}
+
+.title-and-description {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: auto;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: whitesmoke;
 }
